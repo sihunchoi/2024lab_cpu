@@ -1,0 +1,9 @@
+Command Line: /tools/synopsys_2021/verdi/S-2021.09-SP2-9/platform/LINUXAMD64/bin/Novas -Ultra -sv -f run.f
+uname(Linux sse506-s1 4.18.0-553.22.1.el8_10.x86_64 #1 SMP Wed Sep 25 09:20:43 UTC 2024 x86_64)
+type= DND_STRING
+cpu_tb.CPU.icpu.i_datapath.Instr[31:0]
+type= DND_STRING
+cpu_tb.CPU.icpu.i_datapath.Instr[31:0]
+type= DND_STRING
+cpu_tb.CPU.icpu.i_datapath.Result[31:0]
+au time 1177.302311 16.531256 14.748976 delta 252133376 252133376 total 797294592 797294592

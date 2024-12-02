@@ -1,0 +1,15 @@
+*design* DebussyLib (btIdent Verdi_S-2021.09-SP2-9)
+Command arguments:
+    +define+verilog
+    -f run.f
+        ../src/rtl/full_adder.v
+        ../src/rtl/cla_unit_8bit.v
+        ../src/rtl/cla_8bit.v
+        ../src/rtl/cla_32bit.v
+        ../src/rtl/alu_32bit.v
+        ../testbench/testbench.v
+
+Highest level modules:
+testbench
+
+Total	0 error(s),   0 warning(s)

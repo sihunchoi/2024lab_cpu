@@ -1,0 +1,463 @@
+Magic 271485
+Revision Verdi_S-2021.09-SP2-9
+
+; Window Layout <x> <y> <width> <height> <signalwidth> <valuewidth>
+viewPort 0 25 1182 488 173 65
+
+; File list:
+; openDirFile [-d delimiter] [-s time_offset] [-rf auto_bus_rule_file] path_name file_name
+openDirFile -d / "" "/home2/s1_student3/project1/2024fa_cpu_design/week08_midterm/02.RV32I_Integrated_Test/sim/func_sim/wave.fsdb"
+
+; file time scale:
+; fileTimeScale ### s|ms|us|ns|ps
+
+; signal spacing:
+signalSpacing 5
+
+; windowTimeUnit is used for zoom, cursor & marker
+; waveform viewport range
+zoom 247.500000 742.500000
+cursor 310.000000
+marker 0.000000
+
+; user define markers
+; userMarker time_pos marker_name color linestyle
+; visible top row signal index
+top 309
+; marker line index
+markerPos 336
+
+; event list
+; addEvent event_name event_expression
+; curEvent event_name
+
+
+
+COMPLEX_EVENT_BEGIN
+
+
+COMPLEX_EVENT_END
+
+
+
+; toolbar current search type
+; curSTATUS search_type
+curSTATUS ByChange
+
+
+addGroup "G1"
+activeDirFile "" "/home2/s1_student3/project1/2024fa_cpu_design/week08_midterm/02.RV32I_Integrated_Test/sim/func_sim/wave.fsdb"
+addSignal -h 15 /cpu_tb/CPU/BUTTON[2:0]
+addSignal -h 15 -holdScope ByteEnable[3:0]
+addSignal -h 15 -holdScope CLOCK_50
+addSignal -h 15 -holdScope DataAdr[31:0]
+addSignal -h 15 -holdScope HEX0[6:0]
+addSignal -h 15 -holdScope HEX1[6:0]
+addSignal -h 15 -holdScope HEX2[6:0]
+addSignal -h 15 -holdScope HEX3[6:0]
+addSignal -h 15 -holdScope Instr[31:0]
+addSignal -h 15 -holdScope LEDR[9:0]
+addSignal -h 15 -holdScope MemWrite
+addSignal -h 15 -holdScope PC[31:0]
+addSignal -h 15 -holdScope ReadData[31:0]
+addSignal -h 15 -holdScope SW[9:0]
+addSignal -h 15 -holdScope UART_RXD
+addSignal -h 15 -holdScope UART_TXD
+addSignal -h 15 -holdScope WriteData[31:0]
+addSignal -h 15 -holdScope clk
+addSignal -h 15 -holdScope clkb
+addSignal -h 15 -holdScope cs_gpio_n
+addSignal -h 15 -holdScope cs_mem_n
+addSignal -h 15 -holdScope cs_timer_n
+addSignal -h 15 -holdScope cs_uart_n
+addSignal -h 15 -holdScope data_addr[31:0]
+addSignal -h 15 -holdScope data_re
+addSignal -h 15 -holdScope data_we
+addSignal -h 15 -holdScope n_rst
+addSignal -h 15 -holdScope read_data[31:0]
+addSignal -h 15 -holdScope reset
+addSignal -h 15 -holdScope reset_ff
+addSignal -h 15 -holdScope reset_poweron
+addSignal -h 15 -holdScope write_data[31:0]
+addSignal -h 15 /cpu_tb/CPU/icpu/i_datapath/ALUControl[4:0]
+addSignal -h 15 -holdScope ALUResult[31:0]
+addSignal -h 15 -holdScope ALUSrcA[1:0]
+addSignal -h 15 -holdScope ALUSrcB
+addSignal -h 15 -holdScope BE_RD[31:0]
+addSignal -h 15 -holdScope BE_WD[31:0]
+addSignal -h 15 -holdScope C
+addSignal -h 15 -holdScope ImmExt[31:0]
+addSignal -h 15 -holdScope ImmSrc[2:0]
+addSignal -h 15 -holdScope Instr[31:0]
+addSignal -h 15 -holdScope N
+addSignal -h 15 -holdScope PCSrc[1:0]
+addSignal -h 15 -holdScope PC[31:0]
+addSignal -h 15 -holdScope PC_next[31:0]
+addSignal -h 15 -holdScope PC_plus4[31:0]
+addSignal -h 15 -holdScope PC_target[31:0]
+addSignal -h 15 -holdScope ReadData[31:0]
+addSignal -h 15 -holdScope RegWrite
+addSignal -h 15 -holdScope ResultSrc[1:0]
+addSignal -h 15 -holdScope Result[31:0]
+addSignal -h 15 -holdScope SrcA[31:0]
+addSignal -h 15 -holdScope SrcB[31:0]
+addSignal -h 15 -holdScope V
+addSignal -h 15 -holdScope WriteData[31:0]
+addSignal -h 15 -holdScope Z
+addSignal -h 15 -holdScope bef_SrcA[31:0]
+addSignal -h 15 -holdScope bef_SrcB[31:0]
+addSignal -h 15 -holdScope byte_en[3:0]
+addSignal -h 15 -holdScope clk
+addSignal -h 15 /cpu_tb/CPU/icpu/i_datapath/u_ALU/ALUControl[4:0]
+addSignal -h 15 /cpu_tb/DATA_ADDR0[14:0]
+addSignal -h 15 -holdScope DATA_ADDR1[14:0]
+addSignal -h 15 -holdScope DATA_ADDR2[14:0]
+addSignal -h 15 -holdScope DATA_ADDR3[14:0]
+addSignal -h 15 -holdScope DATA_ADDR4[14:0]
+addSignal -h 15 -holdScope DATA_ADDR5[14:0]
+addSignal -h 15 -holdScope DATA_ADDR6[14:0]
+addSignal -h 15 -holdScope DATA_ADDR7[14:0]
+addSignal -h 15 -holdScope DATA_ADDR8[14:0]
+addSignal -h 15 -holdScope DATA_ADDR9[14:0]
+addSignal -h 15 -holdScope DATA_ADDR[14:0]
+addSignal -h 15 -holdScope IMM0[31:0]
+addSignal -h 15 -holdScope IMM1[31:0]
+addSignal -h 15 -holdScope IMM2[31:0]
+addSignal -h 15 -holdScope IMM3[31:0]
+addSignal -h 15 -holdScope IMM[31:0]
+addSignal -h 15 -holdScope INST_ADDR[14:0]
+addSignal -h 15 -holdScope JUMP_ADDR[31:0]
+addSignal -h 15 -holdScope RD1[31:0]
+addSignal -h 15 -holdScope RD2[31:0]
+addSignal -h 15 -holdScope RD[4:0]
+addSignal -h 15 -holdScope RS1[4:0]
+addSignal -h 15 -holdScope RS2[4:0]
+addSignal -h 15 -holdScope SHAMT[4:0]
+addSignal -h 15 -holdScope all_tests_passed
+addSignal -h 15 -holdScope clk
+addSignal -h 15 -holdScope csr[31:0]
+addSignal -h 15 -holdScope current_output[31:0]
+addSignal -h 15 -holdScope current_result[31:0]
+addSignal -h 15 -holdScope current_test_id[31:0]
+addSignal -h 15 -holdScope current_test_type[255:0]
+addSignal -h 15 -holdScope cycle[31:0]
+addSignal -h 15 -holdScope done
+addSignal -h 15 -holdScope i[31:0]
+addSignal -h 15 -holdScope num_cycles[31:0]
+addSignal -h 15 -holdScope num_insts[31:0]
+addSignal -h 15 -holdScope rst
+addSignal -h 15 -holdScope timeout_cycle[31:0]
+addSignal -h 15 -UNSIGNED -UDEC /cpu_tb/CPU/icpu/ALUControl[4:0]
+addSignal -h 15 -holdScope ALUResult[31:0]
+addSignal -h 15 -holdScope ALUSrcA[1:0]
+addSignal -h 15 -holdScope ALUSrcB
+addSignal -h 15 -holdScope Branch
+addSignal -h 15 -holdScope Btaken
+addSignal -h 15 -holdScope C
+addSignal -h 15 -holdScope ImmSrc[2:0]
+addSignal -h 15 -holdScope Instr[31:0]
+addSignal -h 15 -holdScope MemWrite
+addSignal -h 15 -holdScope N
+addSignal -h 15 -holdScope PCSrc[1:0]
+addSignal -h 15 -holdScope PC[31:0]
+addSignal -h 15 -holdScope ReadData[31:0]
+addSignal -h 15 -holdScope RegWrite
+addSignal -h 15 -holdScope ResultSrc[1:0]
+addSignal -h 15 -holdScope V
+addSignal -h 15 -holdScope WriteData[31:0]
+addSignal -h 15 -holdScope Z
+addSignal -h 15 -holdScope clk
+addSignal -h 15 -holdScope n_rst
+addSignal -h 15 /cpu_tb/CPU/icpu/u_controller/ALUControl[4:0]
+addSignal -h 15 -holdScope ALUSrcA[1:0]
+addSignal -h 15 -holdScope ALUSrcB
+addSignal -h 15 -holdScope ALUop[1:0]
+addSignal -h 15 -holdScope Branch
+addSignal -h 15 -holdScope Btaken
+addSignal -h 15 -holdScope ImmSrc[2:0]
+addSignal -h 15 -holdScope Jump
+addSignal -h 15 -holdScope MemWrite
+addSignal -h 15 -holdScope PCSrc[1:0]
+addSignal -h 15 -holdScope RegWrite
+addSignal -h 15 -holdScope ResultSrc[1:0]
+addSignal -h 15 -holdScope funct3[2:0]
+addSignal -h 15 /cpu_tb/CPU/icpu/i_datapath/u_ALU/result[31:0]
+addSignal -h 15 -UNSIGNED -UDEC /cpu_tb/CPU/icpu/ALUControl[4:0]
+addSignal -h 15 -holdScope ALUResult[31:0]
+addSignal -h 15 -holdScope ALUSrcA[1:0]
+addSignal -h 15 -holdScope ALUSrcB
+addSignal -h 15 -holdScope Branch
+addSignal -h 15 -holdScope Btaken
+addSignal -h 15 -holdScope C
+addSignal -h 15 -holdScope ImmSrc[2:0]
+addSignal -h 15 -holdScope Instr[31:0]
+addSignal -h 15 -holdScope MemWrite
+addSignal -h 15 -holdScope N
+addSignal -h 15 -holdScope PCSrc[1:0]
+addSignal -h 15 -holdScope PC[31:0]
+addSignal -h 15 -holdScope ReadData[31:0]
+addSignal -h 15 -holdScope RegWrite
+addSignal -h 15 -holdScope ResultSrc[1:0]
+addSignal -h 15 -holdScope V
+addSignal -h 15 -holdScope WriteData[31:0]
+addSignal -h 15 -holdScope Z
+addSignal -h 15 -holdScope clk
+addSignal -h 15 -holdScope n_rst
+addSignal -h 15 /cpu_tb/CPU/icpu/i_datapath/ALUControl[4:0]
+addSignal -h 15 -holdScope ALUResult[31:0]
+addSignal -h 15 -holdScope ALUSrcA[1:0]
+addSignal -h 15 -holdScope ALUSrcB
+addSignal -h 15 -holdScope BE_RD[31:0]
+addSignal -h 15 -holdScope BE_WD[31:0]
+addSignal -h 15 -holdScope C
+addSignal -h 15 -holdScope ImmExt[31:0]
+addSignal -h 15 -holdScope ImmSrc[2:0]
+addSignal -h 15 -holdScope Instr[31:0]
+addSignal -h 15 -holdScope N
+addSignal -h 15 -holdScope PCSrc[1:0]
+addSignal -h 15 -holdScope PC[31:0]
+addSignal -h 15 -holdScope PC_next[31:0]
+addSignal -h 15 -holdScope PC_plus4[31:0]
+addSignal -h 15 -holdScope PC_target[31:0]
+addSignal -h 15 -holdScope ReadData[31:0]
+addSignal -h 15 -holdScope RegWrite
+addSignal -h 15 -holdScope ResultSrc[1:0]
+addSignal -h 15 -holdScope Result[31:0]
+addSignal -h 15 -holdScope SrcA[31:0]
+addSignal -h 15 -holdScope SrcB[31:0]
+addSignal -h 15 -holdScope V
+addSignal -h 15 -holdScope WriteData[31:0]
+addSignal -h 15 -holdScope Z
+addSignal -h 15 -holdScope bef_SrcA[31:0]
+addSignal -h 15 -holdScope bef_SrcB[31:0]
+addSignal -h 15 -holdScope byte_en[3:0]
+addSignal -h 15 -holdScope clk
+addSignal -h 15 -holdScope n_rst
+addSignal -h 15 /cpu_tb/CPU/icpu/i_datapath/u_ALU/ALUControl[4:0]
+addSignal -h 15 -holdScope C
+addSignal -h 15 -holdScope N
+addSignal -h 15 -holdScope SLT_result[31:0]
+addSignal -h 15 -holdScope V
+addSignal -h 15 -holdScope Z
+addSignal -h 15 -holdScope aC
+addSignal -h 15 -holdScope aN
+addSignal -h 15 -holdScope aV
+addSignal -h 15 -holdScope aZ
+addSignal -h 15 -holdScope a_in[31:0]
+addSignal -h 15 -holdScope add_sub_b[31:0]
+addSignal -h 15 -holdScope adder_result[31:0]
+addSignal -h 15 -holdScope and_result[31:0]
+addSignal -h 15 -holdScope b_in[31:0]
+addSignal -h 15 -holdScope or_result[31:0]
+addSignal -h 15 -holdScope result[31:0]
+addSignal -h 15 -holdScope sll_result[31:0]
+addSignal -h 15 -holdScope sra_result[31:0]
+addSignal -h 15 -holdScope srl_result[31:0]
+addSignal -h 15 -holdScope xor_result[31:0]
+addSignal -h 15 /cpu_tb/DATA_ADDR0[14:0]
+addSignal -h 15 -holdScope DATA_ADDR1[14:0]
+addSignal -h 15 -holdScope DATA_ADDR2[14:0]
+addSignal -h 15 -holdScope DATA_ADDR3[14:0]
+addSignal -h 15 -holdScope DATA_ADDR4[14:0]
+addSignal -h 15 -holdScope DATA_ADDR5[14:0]
+addSignal -h 15 -holdScope DATA_ADDR6[14:0]
+addSignal -h 15 -holdScope DATA_ADDR7[14:0]
+addSignal -h 15 -holdScope DATA_ADDR8[14:0]
+addSignal -h 15 -holdScope DATA_ADDR9[14:0]
+addSignal -h 15 -holdScope DATA_ADDR[14:0]
+addSignal -h 15 -holdScope IMM0[31:0]
+addSignal -h 15 -holdScope IMM1[31:0]
+addSignal -h 15 -holdScope IMM2[31:0]
+addSignal -h 15 -holdScope IMM3[31:0]
+addSignal -h 15 -holdScope IMM[31:0]
+addSignal -h 15 -holdScope INST_ADDR[14:0]
+addSignal -h 15 -holdScope JUMP_ADDR[31:0]
+addSignal -h 15 -holdScope RD1[31:0]
+addSignal -h 15 -holdScope RD2[31:0]
+addSignal -h 15 -holdScope RD[4:0]
+addSignal -h 15 -holdScope RS1[4:0]
+addSignal -h 15 -holdScope RS2[4:0]
+addSignal -h 15 -holdScope SHAMT[4:0]
+addSignal -h 15 -holdScope all_tests_passed
+addSignal -h 15 -holdScope clk
+addSignal -h 15 -holdScope csr[31:0]
+addSignal -h 15 -holdScope current_output[31:0]
+addSignal -h 15 -holdScope current_result[31:0]
+addSignal -h 15 -holdScope current_test_id[31:0]
+addSignal -h 15 -holdScope current_test_type[255:0]
+addSignal -h 15 -holdScope cycle[31:0]
+addSignal -h 15 -holdScope done
+addSignal -h 15 /cpu_tb/CPU/icpu/u_controller/ALUControl[4:0]
+addSignal -h 15 -holdScope ALUSrcA[1:0]
+addSignal -h 15 -holdScope ALUSrcB
+addSignal -h 15 -holdScope ALUop[1:0]
+addSignal -h 15 -holdScope Branch
+addSignal -h 15 -holdScope Btaken
+addSignal -h 15 -holdScope ImmSrc[2:0]
+addSignal -h 15 -holdScope Jump
+addSignal -h 15 -holdScope MemWrite
+addSignal -h 15 -holdScope PCSrc[1:0]
+addSignal -h 15 -holdScope RegWrite
+addSignal -h 15 -holdScope ResultSrc[1:0]
+addSignal -h 15 -holdScope funct3[2:0]
+addSignal -h 15 -holdScope funct7
+addSignal -h 15 -holdScope opcode[6:0]
+addSignal -h 15 /cpu_tb/CPU/imem/addr0[11:0]
+addSignal -h 15 -holdScope addr1[11:0]
+addSignal -h 15 -holdScope clk
+addSignal -h 15 -holdScope d0[31:0]
+addSignal -h 15 -holdScope d1[31:0]
+addSignal -h 15 -holdScope i[31:0]
+addSignal -h 15 -holdScope q0[31:0]
+addSignal -h 15 -holdScope q1[31:0]
+addSignal -h 15 -holdScope read_data0_reg[31:0]
+addSignal -h 15 -holdScope read_data1_reg[31:0]
+addSignal -h 15 -holdScope wbe0[3:0]
+addSignal -h 15 -holdScope wbe1[3:0]
+addSignal -h 15 -holdScope wen0
+addSignal -h 15 -holdScope wen1
+addSignal -h 15 /cpu_tb/CPU/icpu/i_datapath/u_Extend/ImmSrc[2:0]
+addSignal -h 15 -holdScope in[24:0]
+addSignal -h 15 -holdScope out[31:0]
+addSignal -h 15 /cpu_tb/CPU/icpu/i_datapath/u_alu_mux2/in0[31:0]
+addSignal -h 15 -holdScope in1[31:0]
+addSignal -h 15 -holdScope out[31:0]
+addSignal -h 15 -holdScope sel
+addSignal -h 15 /cpu_tb/CPU/icpu/i_datapath/u_alu_mux3/in0[31:0]
+addSignal -h 15 -holdScope in1[31:0]
+addSignal -h 15 -holdScope in2[31:0]
+addSignal -h 15 -holdScope out[31:0]
+addSignal -h 15 -holdScope sel[1:0]
+addSignal -h 15 /cpu_tb/CPU/icpu/i_datapath/u_be/Addr_Last2[1:0]
+addSignal -h 15 -holdScope BE_RD[31:0]
+addSignal -h 15 -holdScope BE_WD[31:0]
+addSignal -h 15 -holdScope RD[31:0]
+addSignal -h 15 -holdScope WD[31:0]
+addSignal -h 15 -holdScope byte_en[3:0]
+addSignal -h 15 -holdScope funct3[2:0]
+addSignal -h 15 /cpu_tb/CPU/icpu/i_datapath/u_pc_next_mux3/in0[31:0]
+addSignal -h 15 -holdScope in1[31:0]
+addSignal -h 15 -holdScope in2[31:0]
+addSignal -h 15 -holdScope out[31:0]
+addSignal -h 15 -holdScope sel[1:0]
+addSignal -h 15 /cpu_tb/CPU/icpu/i_datapath/u_pc_plus4/C
+addSignal -h 15 -holdScope N
+addSignal -h 15 -holdScope V
+addSignal -h 15 -holdScope Z
+addSignal -h 15 -holdScope a[31:0]
+addSignal -h 15 -holdScope b[31:0]
+addSignal -h 15 -holdScope c_30
+addSignal -h 15 -holdScope c_msb
+addSignal -h 15 -holdScope ci
+addSignal -h 15 -holdScope sum[31:0]
+addSignal -h 15 -holdScope w_carry[2:0]
+addSignal -h 15 /cpu_tb/CPU/icpu/i_datapath/u_pc_register/clk
+addSignal -h 15 -holdScope d[31:0]
+addSignal -h 15 -holdScope n_rst
+addSignal -h 15 -holdScope q[31:0]
+addSignal -h 15 /cpu_tb/CPU/icpu/i_datapath/u_pc_target/C
+addSignal -h 15 -holdScope N
+addSignal -h 15 -holdScope V
+addSignal -h 15 -holdScope Z
+addSignal -h 15 -holdScope a[31:0]
+addSignal -h 15 -holdScope b[31:0]
+addSignal -h 15 -holdScope c_30
+addSignal -h 15 -holdScope c_msb
+addSignal -h 15 -holdScope ci
+addSignal -h 15 -holdScope sum[31:0]
+addSignal -h 15 -holdScope w_carry[2:0]
+addSignal -h 15 /cpu_tb/CPU/icpu/i_datapath/u_result_mux3/in0[31:0]
+addSignal -h 15 -holdScope in1[31:0]
+addSignal -h 15 -holdScope in2[31:0]
+addSignal -h 15 -holdScope out[31:0]
+addSignal -h 15 -holdScope sel[1:0]
+addSignal -h 15 /cpu_tb/CPU/icpu/u_branch/Branch
+addSignal -h 15 -holdScope Btaken
+addSignal -h 15 -holdScope C
+addSignal -h 15 -holdScope N
+addSignal -h 15 -holdScope V
+addSignal -h 15 -holdScope Z
+addSignal -h 15 -holdScope funct3[2:0]
+addSignal -h 15 /cpu_tb/CPU/icpu/u_controller/adec/ALUControl[4:0]
+addSignal -h 15 -holdScope ALUop[1:0]
+addSignal -h 15 -holdScope funct3[2:0]
+addSignal -h 15 -holdScope funct7
+addSignal -h 15 -holdScope opcode[6:0]
+addSignal -h 15 /cpu_tb/CPU/icpu/u_controller/funct7
+addSignal -h 15 -holdScope opcode[6:0]
+addSignal -h 15 /cpu_tb/CPU/icpu/i_datapath/u_ALU/C
+addSignal -h 15 -holdScope N
+addSignal -h 15 -holdScope SLT_result[31:0]
+addSignal -h 15 -holdScope V
+addSignal -h 15 -holdScope Z
+addSignal -h 15 -holdScope aC
+addSignal -h 15 -holdScope aN
+addSignal -h 15 -holdScope aV
+addSignal -h 15 -holdScope aZ
+addSignal -h 15 -holdScope a_in[31:0]
+addSignal -h 15 -holdScope add_sub_b[31:0]
+addSignal -h 15 -holdScope adder_result[31:0]
+addSignal -h 15 -holdScope and_result[31:0]
+addSignal -h 15 -holdScope b_in[31:0]
+addSignal -h 15 -holdScope or_result[31:0]
+addSignal -h 15 -holdScope sll_result[31:0]
+addSignal -h 15 -holdScope sra_result[31:0]
+addSignal -h 15 -holdScope srl_result[31:0]
+addSignal -h 15 -holdScope xor_result[31:0]
+addGroup "G2"
+
+; getSignalForm Scope Hierarchy Status
+; active file of getSignalForm
+activeDirFile "" "/home2/s1_student3/project1/2024fa_cpu_design/week08_midterm/02.RV32I_Integrated_Test/sim/func_sim/wave.fsdb"
+
+GETSIGNALFORM_SCOPE_HIERARCHY_BEGIN
+getSignalForm open
+
+"/cpu_tb"
+"/cpu_tb/CPU"
+"/cpu_tb/CPU/icpu"
+"/cpu_tb/CPU/icpu/i_datapath"
+"/cpu_tb/CPU/icpu/i_datapath/u_ALU"
+"/cpu_tb/CPU/icpu/i_datapath/u_ALU/u_add_32bit_add"
+"/cpu_tb/CPU/icpu/i_datapath/u_alu_mux2"
+"/cpu_tb/CPU/icpu/i_datapath/u_alu_mux3"
+"/cpu_tb/CPU/icpu/i_datapath/u_be"
+"/cpu_tb/CPU/icpu/i_datapath/u_pc_next_mux3"
+"/cpu_tb/CPU/icpu/i_datapath/u_pc_register"
+"/cpu_tb/CPU/icpu/i_datapath/u_pc_target"
+"/cpu_tb/CPU/icpu/i_datapath/u_result_mux3"
+"/cpu_tb/CPU/icpu/u_branch"
+"/cpu_tb/CPU/icpu/u_controller"
+"/cpu_tb/CPU/icpu/u_controller/adec"
+"/cpu_tb/CPU/imem"
+
+SCOPE_LIST_BEGIN
+"/cpu_tb"
+"/cpu_tb/CPU"
+"/cpu_tb/CPU/icpu/i_datapath"
+"/cpu_tb/CPU/icpu/u_controller"
+"/cpu_tb/CPU/icpu/u_controller/adec"
+"/cpu_tb/CPU/icpu"
+"/cpu_tb/CPU/icpu/i_datapath/rf"
+"/cpu_tb/CPU/icpu/i_datapath/u_ALU"
+"/cpu_tb/CPU/icpu/i_datapath/u_Extend"
+"/cpu_tb/CPU/icpu/u_branch"
+"/cpu_tb/CPU/imem"
+"/cpu_tb/CPU/icpu/u_controller/mdec"
+"/cpu_tb/CPU/icpu/i_datapath/u_ALU/u_add_32bit_add"
+"/cpu_tb/CPU/icpu/i_datapath/u_alu_mux2"
+"/cpu_tb/CPU/icpu/i_datapath/rf/Unnamed_$reg_file_async_v_16"
+"/cpu_tb/CPU/icpu/i_datapath/u_be"
+"/cpu_tb/CPU/icpu/i_datapath/u_alu_mux3"
+"/cpu_tb/CPU/icpu/i_datapath/u_pc_register"
+"/cpu_tb/CPU/icpu/i_datapath/u_pc_next_mux3"
+"/cpu_tb/CPU/icpu/i_datapath/u_pc_plus4"
+"/cpu_tb/CPU/icpu/i_datapath/u_pc_plus4/CLA_8bit_01"
+"/cpu_tb/CPU/icpu/i_datapath/u_pc_target"
+"/cpu_tb/CPU/icpu/i_datapath/u_result_mux3"
+"/flopenr"
+SCOPE_LIST_END
+
+GETSIGNALFORM_SCOPE_HIERARCHY_END
+
+

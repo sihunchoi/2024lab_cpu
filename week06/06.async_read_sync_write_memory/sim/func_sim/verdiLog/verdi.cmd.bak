@@ -1,0 +1,7 @@
+debImport "-f" "run.f"
+wvCreateWindow
+wvOpenFile -win $_nWave2 \
+           {/home2/s1_student3/project1/2024fa_cpu_design/week06/06.async_read_sync_write_memory/sim/func_sim/testbench.fsdb}
+verdiWindowResize -win $_Verdi_1 "500" "182" "900" "700"
+verdiSetActWin -dock widgetDock_MTB_SOURCE_TAB_1
+debExit

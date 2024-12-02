@@ -1,0 +1,19 @@
+.
+|-- dir_tree.txt
+|-- sim
+|   `-- func_sim
+|       |-- Makefile
+|       |-- novas.conf
+|       |-- novas.rc
+|       |-- run.f
+|       |-- run.sh
+|       |-- run_verdi.sh
+|       |-- signal.rc
+|       `-- sim_define.v
+|-- src
+|   `-- rtl
+|       `-- not_gate.v
+`-- testbench
+    `-- testbench.v
+
+5 directories, 11 files

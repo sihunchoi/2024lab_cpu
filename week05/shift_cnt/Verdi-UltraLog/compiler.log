@@ -1,0 +1,12 @@
+*design* DebussyLib (btIdent Verdi_S-2021.09-SP2-9)
+Command arguments:
+    +define+verilog
+    -sv
+    -f run.f
+        ./s_cnt.v
+        ./tb_s_cnt.v
+
+Highest level modules:
+tb_s_cnt
+
+Total	0 error(s),   0 warning(s)

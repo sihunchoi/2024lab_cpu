@@ -1,0 +1,6 @@
+/home2/s1_student3/project1/2024fa_cpu_design/week06/03.32bit_ALU/src/rtl/alu_32bit.v
+/home2/s1_student3/project1/2024fa_cpu_design/week06/03.32bit_ALU/src/rtl/cla_32bit.v
+/home2/s1_student3/project1/2024fa_cpu_design/week06/03.32bit_ALU/src/rtl/cla_8bit.v
+/home2/s1_student3/project1/2024fa_cpu_design/week06/03.32bit_ALU/src/rtl/cla_unit_8bit.v
+/home2/s1_student3/project1/2024fa_cpu_design/week06/03.32bit_ALU/src/rtl/full_adder.v
+/home2/s1_student3/project1/2024fa_cpu_design/week06/03.32bit_ALU/testbench/testbench.v

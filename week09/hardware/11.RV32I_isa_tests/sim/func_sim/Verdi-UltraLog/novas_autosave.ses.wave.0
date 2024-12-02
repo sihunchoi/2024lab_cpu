@@ -1,0 +1,103 @@
+Magic 271485
+Revision Verdi_S-2021.09-SP2-9
+
+; Window Layout <x> <y> <width> <height> <signalwidth> <valuewidth>
+viewPort 0 25 906 413 100 65
+
+; File list:
+; openDirFile [-d delimiter] [-s time_offset] [-rf auto_bus_rule_file] path_name file_name
+openDirFile -d / "" "/home2/s1_student3/project1/2024fa_cpu_design/week09/hardware/11.RV32I_isa_tests/sim/func_sim/wave.fsdb"
+
+; file time scale:
+; fileTimeScale ### s|ms|us|ns|ps
+
+; signal spacing:
+signalSpacing 5
+
+; windowTimeUnit is used for zoom, cursor & marker
+; waveform viewport range
+zoom 4654.843750 4955.156250
+cursor 770.000000
+marker 0.000000
+
+; user define markers
+; userMarker time_pos marker_name color linestyle
+; visible top row signal index
+top 5
+; marker line index
+markerPos 16
+
+; event list
+; addEvent event_name event_expression
+; curEvent event_name
+
+
+
+COMPLEX_EVENT_BEGIN
+
+
+COMPLEX_EVENT_END
+
+
+
+; toolbar current search type
+; curSTATUS search_type
+curSTATUS ByChange
+
+
+addGroup "G1"
+activeDirFile "" "/home2/s1_student3/project1/2024fa_cpu_design/week09/hardware/11.RV32I_isa_tests/sim/func_sim/wave.fsdb"
+addSignal -h 15 /isa_testbench/CPU/icpu/Instr[31:0]
+addSignal -h 15 -holdScope PC[31:0]
+addSignal -h 15 -holdScope clk
+addSignal -h 15 -holdScope n_rst
+addSignal -h 15 /isa_testbench/CPU/icpu/u_branch/Branch
+addSignal -h 15 -holdScope Btaken
+addSignal -h 15 -holdScope C
+addSignal -h 15 -holdScope N
+addSignal -h 15 -holdScope V
+addSignal -h 15 -holdScope Z
+addSignal -h 15 -holdScope funct3[2:0]
+addSignal -h 15 /isa_testbench/CPU/icpu/u_controller/PCSrc[1:0]
+addSignal -h 15 -UNSIGNED -BIN -holdScope opcode[6:0]
+addSignal -h 15 /isa_testbench/CPU/icpu/i_datapath/u_ALU/a_in[31:0]
+addSignal -h 15 -holdScope b_in[31:0]
+addSignal -h 15 -UNSIGNED -BIN /isa_testbench/CPU/icpu/u_controller/adec/ALUop[1:0]
+addSignal -h 15 -UNSIGNED -BIN -holdScope ALUControl[4:0]
+addGroup "G2"
+
+; getSignalForm Scope Hierarchy Status
+; active file of getSignalForm
+activeDirFile "" "/home2/s1_student3/project1/2024fa_cpu_design/week09/hardware/11.RV32I_isa_tests/sim/func_sim/wave.fsdb"
+
+GETSIGNALFORM_SCOPE_HIERARCHY_BEGIN
+getSignalForm close
+
+"/flopenr"
+"/isa_testbench"
+"/isa_testbench/CPU"
+"/isa_testbench/CPU/icpu"
+"/isa_testbench/CPU/icpu/i_datapath"
+"/isa_testbench/CPU/icpu/i_datapath/u_ALU"
+"/isa_testbench/CPU/icpu/u_controller"
+
+SCOPE_LIST_BEGIN
+"/flopenr"
+"/isa_testbench"
+"/isa_testbench/CPU"
+"/isa_testbench/CPU/icpu"
+"/isa_testbench/CPU/imem"
+"/isa_testbench/CPU/icpu/i_datapath"
+"/isa_testbench/CPU/icpu/i_datapath/Csr_Logic"
+"/isa_testbench/CPU/icpu/i_datapath/u_Csr_Logic"
+"/isa_testbench/CPU/icpu/u_branch"
+"/isa_testbench/CPU/icpu/u_controller"
+"/isa_testbench/CPU/icpu/i_datapath/u_ALU"
+"/isa_testbench/CPU/icpu/i_datapath/u_be"
+"/isa_testbench/CPU/icpu/i_datapath/u_pc_register"
+"/isa_testbench/CPU/icpu/u_controller/adec"
+SCOPE_LIST_END
+
+GETSIGNALFORM_SCOPE_HIERARCHY_END
+
+

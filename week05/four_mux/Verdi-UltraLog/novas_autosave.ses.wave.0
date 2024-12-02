@@ -1,0 +1,74 @@
+Magic 271485
+Revision Verdi_S-2021.09-SP2-9
+
+; Window Layout <x> <y> <width> <height> <signalwidth> <valuewidth>
+viewPort 0 25 900 258 100 65
+
+; File list:
+; openDirFile [-d delimiter] [-s time_offset] [-rf auto_bus_rule_file] path_name file_name
+openDirFile -d / "" "/home2/s1_student3/project1/2024fa_cpu_design/week05/four_mux/wave.fsdb"
+
+; file time scale:
+; fileTimeScale ### s|ms|us|ns|ps
+
+; signal spacing:
+signalSpacing 5
+
+; windowTimeUnit is used for zoom, cursor & marker
+; waveform viewport range
+zoom 0.000000 125888.252149
+cursor 160000.000000
+marker 0.000000
+
+; user define markers
+; userMarker time_pos marker_name color linestyle
+; visible top row signal index
+top 0
+; marker line index
+markerPos 7
+
+; event list
+; addEvent event_name event_expression
+; curEvent event_name
+
+
+
+COMPLEX_EVENT_BEGIN
+
+
+COMPLEX_EVENT_END
+
+
+
+; toolbar current search type
+; curSTATUS search_type
+curSTATUS ByChange
+
+
+addGroup "G1"
+activeDirFile "" "/home2/s1_student3/project1/2024fa_cpu_design/week05/four_mux/wave.fsdb"
+addSignal -h 15 /tb_four_mux/a
+addSignal -h 15 -holdScope b
+addSignal -h 15 -holdScope c
+addSignal -h 15 -holdScope d
+addSignal -h 15 -holdScope s1
+addSignal -h 15 -holdScope s2
+addSignal -h 15 -holdScope y
+addGroup "G2"
+
+; getSignalForm Scope Hierarchy Status
+; active file of getSignalForm
+activeDirFile "" "/home2/s1_student3/project1/2024fa_cpu_design/week05/four_mux/wave.fsdb"
+
+GETSIGNALFORM_SCOPE_HIERARCHY_BEGIN
+getSignalForm close
+
+"/tb_four_mux"
+
+SCOPE_LIST_BEGIN
+"/tb_four_mux"
+SCOPE_LIST_END
+
+GETSIGNALFORM_SCOPE_HIERARCHY_END
+
+

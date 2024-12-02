@@ -1,0 +1,211 @@
+@Verdi-Ultra rc file Version 1.0
+[General]
+saveDB = TRUE
+relativePath = FALSE
+saveSingleView = FALSE
+saveNWaveWinId = 
+VerdiVersion = Verdi_S-2021.09-SP2-9
+[KeyNote]
+Line1 = Automatic Backup 0
+Line2 = Save Open Database Information: Yes
+Line3 = Path Option: Absolute Paths
+Line4 = Windows Option: All Windows
+[OneSearch]
+isExisted = FALSE
+[TestBench]
+ConstrViewShow = 0
+InherViewShow = 0
+FSDBMsgShow = 0
+AnnotationShow = 0
+Console = FALSE
+powerDumped = 0
+[fusa]
+fdb_server = 
+fdb_proj = 
+fdb_campaign = 
+fdb_tool = 
+[hb]
+postSimFile = /home2/s1_student3/project1/2024fa_cpu_design/week08_midterm/02.RV32I_Integrated_Test/sim/func_sim/wave.fsdb
+syncTime = 490
+viewport = 17 21 1183 591 0 0 175 1180
+activeNode = "cpu_tb.CPU.imem"
+activeScope = "cpu_tb.CPU.imem"
+activeFile = "../../model/ASYNC_RAM_DP_WBE.v"
+interactiveMode = False
+viewType = Source
+simulatorMode = False
+sourceBeginLine = 54
+baMode = False
+srcLineNum = True
+AutoWrap = True
+IdentifyFalseLogic = False
+syncSignal = False
+traceMode = Hierarchical
+showTraceInSchema = True
+paMode = False
+funcMode = False
+powerAwareAnnot = True
+safetyAwareAnnot = True
+amsAnnot = True
+DnDtraceCrossHierOnly = True
+leadingZero = False
+signalPane = False
+SourceVerticalScrollLines = 5
+Scope1 = "cpu_tb.CPU.imem"
+Scope2 = "cpu_tb"
+Scope3 = "flopenr"
+rangeSelection = 64 64 1 10 1 1
+sdfCheckUndef = FALSE
+simFlow = FALSE
+[hb.design]
+importCmd = "-sv" "-f" "run.f" 
+invokeDir = /home2/s1_student3/project1/2024fa_cpu_design/week08_midterm/02.RV32I_Integrated_Test/sim/func_sim
+[hb.sourceTab.1]
+scope = cpu_tb.CPU.imem
+File = /home2/s1_student3/project1/2024fa_cpu_design/week08_midterm/02.RV32I_Integrated_Test/model/ASYNC_RAM_DP_WBE.v
+Line = 55
+[nMemoryManager]
+WaveformFile = /home2/s1_student3/project1/2024fa_cpu_design/week08_midterm/02.RV32I_Integrated_Test/sim/func_sim/wave.fsdb
+UserActionNum = 0
+nMemWindowNum = 0
+[schematics.0]
+viewport = 0 25 789 204
+viewbbox = -16648 -1062 46308 11226
+design = . "cpu_tb" DebussyLib
+schmaticId = 2
+partial = False
+partialHier = False
+annotData = AnnotData.0
+locatorSession = Locator.0
+display_port_name = True
+display_pin_name = True
+display_instance_name = True
+display_local_net_name = True
+display_complete_name = True
+display_entity_name = True
+display_arch_name = True
+display_module_name = True
+display_high_contrast = True
+display_back_annotation = False
+display_safety_aware_obj = False
+display_back_annotation_in_Line = False
+display_param_list = True
+auto_fit_select_set = False
+pre_select = True
+show_full_name = False
+display_short_name = True
+display_preselect_tip = False
+append_view_obj = True
+cmdToolbar = True
+msgToolbar = True
+syncTime = 490
+traceMode = Hierarchical
+originate_from = from_import_scope
+signal_color_set =  "cpu_tb.CPU.icpu.i_datapath.u_pc_register.q[31:0]" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_target.CLA_8bit_01.fa0.a" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_target.CLA_8bit_02.fa0.a" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_target.CLA_8bit_01.fa1.\
+a" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_target.CLA_8bit_03.fa0.a" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_target.CLA_8bit_02.fa1.a" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_target.CLA_8bit_01.fa2.a" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_tar\
+get.CLA_8bit_04.fa0.a" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_target.CLA_8bit_03.fa1.a" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_target.CLA_8bit_02.fa2.a" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_target.CLA_8bit_01.fa3.a" "ID_RED2" "cpu_tb.CPU.icpu\
+.i_datapath.u_pc_target.CLA_8bit_04.fa1.a" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_target.CLA_8bit_03.fa2.a" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_target.CLA_8bit_02.fa3.a" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_target.CLA_8bit_01.fa4.a" "ID_RE\
+D2" "cpu_tb.CPU.icpu.i_datapath.u_pc_target.CLA_8bit_04.fa2.a" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_target.CLA_8bit_03.fa3.a" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_target.CLA_8bit_02.fa4.a" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_target.CLA_8\
+bit_01.fa5.a" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_target.CLA_8bit_04.fa3.a" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_target.CLA_8bit_03.fa4.a" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_target.CLA_8bit_02.fa5.a" "ID_RED2" "cpu_tb.CPU.icpu.i_datapa\
+th.u_pc_target.CLA_8bit_01.fa6.a" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_target.CLA_8bit_04.fa4.a" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_target.CLA_8bit_03.fa5.a" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_target.CLA_8bit_02.fa6.a" "ID_RED2" "cpu_\
+tb.CPU.icpu.i_datapath.u_pc_target.CLA_8bit_01.fa7.a" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.BE_WD[31:0]" "ID_BLUE5" "cpu_tb.CPU.icpu.i_datapath.WriteData[31:0]" "ID_BLUE5" "cpu_tb.CPU.icpu.i_datapath.PC[31:0]" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.byte_en[\
+3:0]" "ID_YELLOW5" "cpu_tb.CPU.icpu.i_datapath.u_pc_target.CLA_8bit_04.fa5.a" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_target.CLA_8bit_03.fa6.a" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_target.CLA_8bit_02.fa7.a" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_\
+pc_target.CLA_8bit_04.fa6.a" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_target.CLA_8bit_03.fa7.a" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_target.CLA_8bit_04.fa7.a" "ID_RED2" "cpu_tb.CPU.WriteData[31:0]" "ID_BLUE5" "cpu_tb.CPU.PC[31:0]" "ID_RED2" "cpu_tb\
+.CPU.PC[13:2]" "ID_RED2" "cpu_tb.CPU.icpu.WriteData[31:0]" "ID_BLUE5" "cpu_tb.CPU.icpu.PC[31:0]" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_plus4.CLA_8bit_01.fa0.a" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_plus4.CLA_8bit_02.fa0.a" "ID_RED2" "cpu_tb.CPU.i\
+cpu.i_datapath.u_pc_plus4.CLA_8bit_01.fa1.a" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_target.a[23:16]" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_target.a[7:0]" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_target.a[31:0]" "ID_RED2" "cpu_tb.CPU.icpu.i_datap\
+ath.u_pc_target.a[31:24]" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_target.a[15:8]" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_be.BE_WD[31:0]" "ID_BLUE5" "cpu_tb.CPU.icpu.i_datapath.u_be.byte_en[3:0]" "ID_YELLOW5" "cpu_tb.CPU.icpu.i_datapath.u_pc_plus4.CLA_8\
+bit_03.fa0.a" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_plus4.CLA_8bit_02.fa1.a" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_plus4.CLA_8bit_01.fa2.a" "ID_RED2" "cpu_tb.CPU.imem.addr0[11:0]" "ID_RED2" "cpu_tb.CPU.imem.d1[31:0]" "ID_BLUE5" "cpu_tb.CPU.icpu.i\
+_datapath.u_pc_plus4.CLA_8bit_04.fa0.a" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_plus4.CLA_8bit_03.fa1.a" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_plus4.CLA_8bit_02.fa2.a" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_plus4.CLA_8bit_01.fa3.a" "ID_RED2" "c\
+pu_tb.CPU.icpu.i_datapath.u_pc_plus4.CLA_8bit_04.fa1.a" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_plus4.CLA_8bit_03.fa2.a" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_plus4.CLA_8bit_02.fa3.a" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_plus4.CLA_8bit_01.fa4\
+.a" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_plus4.CLA_8bit_04.fa2.a" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_plus4.CLA_8bit_03.fa3.a" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_plus4.CLA_8bit_02.fa4.a" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_plus4\
+.CLA_8bit_01.fa5.a" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_plus4.CLA_8bit_04.fa3.a" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_plus4.CLA_8bit_03.fa4.a" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_plus4.CLA_8bit_02.fa5.a" "ID_RED2" "cpu_tb.CPU.icpu.i_dat\
+apath.u_pc_plus4.CLA_8bit_01.fa6.a" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_plus4.CLA_8bit_04.fa4.a" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_plus4.CLA_8bit_03.fa5.a" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_plus4.CLA_8bit_02.fa6.a" "ID_RED2" "cpu_t\
+b.CPU.icpu.i_datapath.u_pc_plus4.CLA_8bit_01.fa7.a" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_plus4.CLA_8bit_04.fa5.a" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_plus4.CLA_8bit_03.fa6.a" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_plus4.CLA_8bit_02.fa7.a" \
+"ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_plus4.CLA_8bit_04.fa6.a" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_plus4.CLA_8bit_03.fa7.a" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_target.CLA_8bit_01.a[0]" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_target.CL\
+A_8bit_01.a[2]" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_target.CLA_8bit_01.a[4]" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_target.CLA_8bit_01.a[6]" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_target.CLA_8bit_01.a[7:0]" "ID_RED2" "cpu_tb.CPU.icpu.i_datap\
+ath.u_pc_target.CLA_8bit_01.a[1]" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_target.CLA_8bit_01.a[3]" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_target.CLA_8bit_01.a[5]" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_target.CLA_8bit_01.a[7]" "ID_RED2" "cpu_tb.\
+CPU.icpu.i_datapath.u_pc_plus4.CLA_8bit_04.fa7.a" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_target.CLA_8bit_02.a[0]" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_target.CLA_8bit_02.a[2]" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_target.CLA_8bit_02.a[4]" "I\
+D_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_target.CLA_8bit_02.a[6]" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_target.CLA_8bit_02.a[7:0]" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_target.CLA_8bit_02.a[1]" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_target.CL\
+A_8bit_02.a[3]" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_target.CLA_8bit_02.a[5]" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_target.CLA_8bit_02.a[7]" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_target.CLA_8bit_03.a[0]" "ID_RED2" "cpu_tb.CPU.icpu.i_datapat\
+h.u_pc_target.CLA_8bit_03.a[2]" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_target.CLA_8bit_03.a[4]" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_target.CLA_8bit_03.a[6]" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_target.CLA_8bit_03.a[7:0]" "ID_RED2" "cpu_tb.\
+CPU.icpu.i_datapath.u_pc_target.CLA_8bit_03.a[1]" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_target.CLA_8bit_03.a[3]" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_target.CLA_8bit_03.a[5]" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_target.CLA_8bit_03.a[7]" "I\
+D_RED2" "cpu_tb.CPU.icpu.i_datapath.u_alu_mux3.in1[31:0]" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_target.CLA_8bit_04.a[0]" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_target.CLA_8bit_04.a[2]" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_target.CLA_8bit_04.\
+a[4]" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_target.CLA_8bit_04.a[6]" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_target.CLA_8bit_04.a[7:0]" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_target.CLA_8bit_04.a[1]" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_t\
+arget.CLA_8bit_04.a[3]" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_target.CLA_8bit_04.a[5]" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_target.CLA_8bit_04.a[7]" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_plus4.a[23:16]" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath\
+.u_pc_plus4.a[7:0]" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_plus4.a[31:0]" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_plus4.a[31:24]" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_plus4.a[15:8]" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_plus4.CLA_8bit_01.\
+a[0]" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_plus4.CLA_8bit_01.a[2]" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_plus4.CLA_8bit_01.a[4]" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_plus4.CLA_8bit_01.a[6]" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_plus4.\
+CLA_8bit_01.a[7:0]" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_plus4.CLA_8bit_01.a[1]" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_plus4.CLA_8bit_01.a[3]" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_plus4.CLA_8bit_01.a[5]" "ID_RED2" "cpu_tb.CPU.icpu.i_datapa\
+th.u_pc_plus4.CLA_8bit_01.a[7]" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_plus4.CLA_8bit_02.a[0]" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_plus4.CLA_8bit_02.a[2]" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_plus4.CLA_8bit_02.a[4]" "ID_RED2" "cpu_tb.CPU.i\
+cpu.i_datapath.u_pc_plus4.CLA_8bit_02.a[6]" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_plus4.CLA_8bit_02.a[7:0]" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_plus4.CLA_8bit_02.a[1]" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_plus4.CLA_8bit_02.a[3]" "ID_RED2"\
+ "cpu_tb.CPU.icpu.i_datapath.u_pc_plus4.CLA_8bit_02.a[5]" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_plus4.CLA_8bit_02.a[7]" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_plus4.CLA_8bit_03.a[0]" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_plus4.CLA_8bit_03.a[2\
+]" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_plus4.CLA_8bit_03.a[4]" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_plus4.CLA_8bit_03.a[6]" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_plus4.CLA_8bit_03.a[7:0]" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_plus4.C\
+LA_8bit_03.a[1]" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_plus4.CLA_8bit_03.a[3]" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_plus4.CLA_8bit_03.a[5]" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_plus4.CLA_8bit_03.a[7]" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.\
+u_pc_plus4.CLA_8bit_04.a[0]" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_plus4.CLA_8bit_04.a[2]" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_plus4.CLA_8bit_04.a[4]" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_plus4.CLA_8bit_04.a[6]" "ID_RED2" "cpu_tb.CPU.icpu\
+.i_datapath.u_pc_plus4.CLA_8bit_04.a[7:0]" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_plus4.CLA_8bit_04.a[1]" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_plus4.CLA_8bit_04.a[3]" "ID_RED2" "cpu_tb.CPU.icpu.i_datapath.u_pc_plus4.CLA_8bit_04.a[5]" "ID_RED2" "c\
+pu_tb.CPU.icpu.i_datapath.u_pc_plus4.CLA_8bit_04.a[7]" "ID_RED2"
+full_hier_partial_dis = False
+detail_rtl = False
+hide_extraneous_bus = True
+hierFlatten = False
+instrument_cell = False
+gcc_level = False
+PG_pin = True
+power_signal = True
+power_cell = True
+power_domain = True
+brighten_power_color = False
+sdc_annot = False
+hier_flatten_view = False
+auto_collapse_paths = True
+group_paths = False
+locator = True
+align_locator_right = False
+all_hier_ports = False
+VCST_path_type = 0
+verdi_type_wnd = False
+line_up_registers = False
+through_net = True
+interface_element = True
+run-time_interface_element = True
+magnifier = False
+highlight_incomplete_net = False
+quick_trace_2_point = False
+show_pass_through_net = False
+display_fault_status_bar_on_net = False
+display_fault_status_bar_on_pinport = False
+display_fault_status_bar_on_flop = False
+display_fault_status_annot = False
+display_fault_obs_det_annot = False
+display_fusa_blocked_inst_label = False
+display_edf_depth_tfo_tfi_annot = False
+Scope0 = . "cpu_tb" -31192 -6305 67692 30305
+Scope1 = . "cpu_tb.CPU" 19813 4393 39755 11777
+Scope2 = . "cpu_tb.CPU.icpu" -20242 -925 59224 28497
+Scope3 = . "cpu_tb.CPU.icpu.i_datapath" -33324 -14308 100868 35376
+Scope4 = . "cpu_tb.CPU.imem" -12321 -1031 25321 12905
+Scope5 = . "cpu_tb.CPU.icpu.i_datapath.u_be" -20331 -1200 39831 21074
+[wave.0]
+viewPort = 0 25 1183 488 143 65
+primaryWindow = TRUE
+SessionFile = /home2/s1_student3/project1/2024fa_cpu_design/week08_midterm/02.RV32I_Integrated_Test/sim/func_sim/Verdi-UltraLog/novas_autosave.ses.wave.0
+displayGrid = FALSE
+hierarchicalName = FALSE
+snap = TRUE
+displayLeadingZeros = FALSE
+fixDelta = FALSE
+displayCursorMarker = FALSE
+autoUpdate = FALSE
+highlightGlitchs = FALSE
+waveformSyncCursorMarker = FALSE
+waveformSyncHorizontalRange = FALSE
+waveformSyncVerticalscroll = FALSE
+displayErrors = TRUE
+displayMsgSymbols = TRUE
+showMsgDescriptions = TRUE
+autoFit = FALSE
+displayDeltaY = FALSE
+centerCursor = FALSE
+fsaRegMask = TRUE
+fsaCoreMask = TRUE
+fsaSfsmMask = TRUE
+fsaEcrMask = TRUE

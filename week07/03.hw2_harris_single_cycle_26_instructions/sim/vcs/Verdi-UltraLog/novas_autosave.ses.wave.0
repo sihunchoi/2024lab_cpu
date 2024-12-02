@@ -1,0 +1,140 @@
+Magic 271485
+Revision Verdi_S-2021.09-SP2-9
+
+; Window Layout <x> <y> <width> <height> <signalwidth> <valuewidth>
+viewPort 0 25 1163 211 114 65
+
+; File list:
+; openDirFile [-d delimiter] [-s time_offset] [-rf auto_bus_rule_file] path_name file_name
+openDirFile -d / "" "/home2/s1_student3/project1/2024fa_cpu_design/week07/03.hw2_harris_single_cycle_26_instructions/sim/vcs/wave.fsdb"
+
+; file time scale:
+; fileTimeScale ### s|ms|us|ns|ps
+
+; signal spacing:
+signalSpacing 5
+
+; windowTimeUnit is used for zoom, cursor & marker
+; waveform viewport range
+zoom 81600.000000 161600.000000
+cursor 155000.000000
+marker 0.000000
+
+; user define markers
+; userMarker time_pos marker_name color linestyle
+; visible top row signal index
+top 25
+; marker line index
+markerPos 49
+
+; event list
+; addEvent event_name event_expression
+; curEvent event_name
+
+
+
+COMPLEX_EVENT_BEGIN
+
+
+COMPLEX_EVENT_END
+
+
+
+; toolbar current search type
+; curSTATUS search_type
+curSTATUS ByChange
+
+
+addGroup "G1"
+activeDirFile "" "/home2/s1_student3/project1/2024fa_cpu_design/week07/03.hw2_harris_single_cycle_26_instructions/sim/vcs/wave.fsdb"
+addSignal -h 15 /testbench/dut/Instr[31:0]
+addSignal -h 15 -holdScope clk
+addSignal -h 15 -holdScope n_rst
+addSignal -h 15 -holdScope PC[31:0]
+addSignal -h 15 /testbench/dut/rvsingle/u_controller/ALUControl[4:0]
+addSignal -h 15 -holdScope ALUSrcA[1:0]
+addSignal -h 15 -holdScope ALUSrcB
+addSignal -h 15 -holdScope ALUop[1:0]
+addSignal -h 15 -holdScope Branch
+addSignal -h 15 -holdScope Btaken
+addSignal -h 15 -holdScope ImmSrc[2:0]
+addSignal -h 15 -holdScope Jump
+addSignal -h 15 -holdScope MemWrite
+addSignal -h 15 -holdScope PCSrc[1:0]
+addSignal -h 15 -holdScope RegWrite
+addSignal -h 15 -holdScope ResultSrc[1:0]
+addSignal -h 15 -holdScope funct3[2:0]
+addSignal -h 15 -holdScope funct7
+addSignal -h 15 -holdScope opcode[6:0]
+addSignal -h 15 /testbench/dut/rvsingle/u_datapath/ALUControl[4:0]
+addSignal -h 15 -holdScope ALUResult[31:0]
+addSignal -h 15 -holdScope ALUSrcA[1:0]
+addSignal -h 15 -holdScope ALUSrcB
+addSignal -h 15 -holdScope BE_RD[31:0]
+addSignal -h 15 -holdScope BE_WD[31:0]
+addSignal -h 15 -holdScope ImmExt[31:0]
+addSignal -h 15 -holdScope ImmSrc[2:0]
+addSignal -h 15 -holdScope Instr[31:0]
+addSignal -h 15 -holdScope PCSrc[1:0]
+addSignal -h 15 -holdScope PC[31:0]
+addSignal -h 15 -holdScope PC_next[31:0]
+addSignal -h 15 -holdScope PC_plus4[31:0]
+addSignal -h 15 -holdScope PC_target[31:0]
+addSignal -h 15 -holdScope ReadData[31:0]
+addSignal -h 15 -holdScope RegWrite
+addSignal -h 15 -holdScope ResultSrc[1:0]
+addSignal -h 15 -holdScope Result[31:0]
+addSignal -h 15 -holdScope SrcA[31:0]
+addSignal -h 15 -holdScope SrcB[31:0]
+addSignal -h 15 -holdScope WriteData[31:0]
+addSignal -h 15 -holdScope N
+addSignal -h 15 -holdScope Z
+addSignal -h 15 -holdScope C
+addSignal -h 15 /testbench/dut/rvsingle/u_branch/V
+addSignal -h 15 -holdScope funct3[2:0]
+addSignal -h 15 /testbench/dut/rvsingle/u_controller/ALUop[1:0]
+addSignal -h 15 /testbench/dut/rvsingle/u_datapath/u_ALU/a_in[31:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope b_in[31:0]
+addSignal -h 15 -holdScope add_sub_b[31:0]
+addSignal -h 15 /testbench/dut/rvsingle/u_branch/Branch
+addSignal -h 15 -holdScope Btaken
+addSignal -h 15 /testbench/dut/rvsingle/u_datapath/bef_SrcA[31:0]
+addSignal -h 15 -holdScope bef_SrcB[31:0]
+addSignal -h 15 -holdScope byte_en[3:0]
+addSignal -h 15 -holdScope clk
+addSignal -h 15 -holdScope n_rst
+addSignal -h 15 -UNSIGNED -BIN /testbench/dut/rvsingle/u_controller/adec/opcode[6:0]
+addGroup "G2"
+
+; getSignalForm Scope Hierarchy Status
+; active file of getSignalForm
+activeDirFile "" "/home2/s1_student3/project1/2024fa_cpu_design/week07/03.hw2_harris_single_cycle_26_instructions/sim/vcs/wave.fsdb"
+
+GETSIGNALFORM_SCOPE_HIERARCHY_BEGIN
+getSignalForm close
+
+"/flopenr"
+"/testbench"
+"/testbench/dut"
+"/testbench/dut/rvsingle"
+"/testbench/dut/rvsingle/u_branch"
+"/testbench/dut/rvsingle/u_controller"
+"/testbench/dut/rvsingle/u_datapath"
+"/testbench/dut/rvsingle/u_datapath/u_ALU"
+
+SCOPE_LIST_BEGIN
+"/flopenr"
+"/testbench/dut"
+"/testbench"
+"/testbench/dut/rvsingle"
+"/testbench/dut/rvsingle/u_datapath"
+"/testbench/dut/rvsingle/u_controller"
+"/testbench/dut/rvsingle/u_controller/adec"
+"/testbench/dut/rvsingle/u_controller/mdec"
+"/testbench/dut/rvsingle/u_branch"
+"/testbench/dut/rvsingle/u_datapath/u_ALU"
+SCOPE_LIST_END
+
+GETSIGNALFORM_SCOPE_HIERARCHY_END
+
+

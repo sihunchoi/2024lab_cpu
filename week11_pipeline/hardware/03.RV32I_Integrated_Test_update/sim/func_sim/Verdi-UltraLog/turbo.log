@@ -1,0 +1,169 @@
+Command Line: /tools/synopsys_2021/verdi/S-2021.09-SP2-9/platform/LINUXAMD64/bin/Novas -Ultra -sv -f run.f
+uname(Linux sse506-s1 4.18.0-553.22.1.el8_10.x86_64 #1 SMP Wed Sep 25 09:20:43 UTC 2024 x86_64)
+type= DS_SCOPE element= 1 field= 1
+VERILOG cpu_tb
+VERILOG CPU
+VERILOG icpu
+VERILOG i_datapath
+-----
+second field= DebussyLib
+third field= datapath
+type= DS_SCOPE element= 1 field= 1
+VERILOG cpu_tb
+VERILOG CPU
+VERILOG icpu
+VERILOG i_datapath
+VERILOG rf
+-----
+second field= DebussyLib
+third field= reg_file_async
+type= DS_SCOPE element= 1 field= 1
+VERILOG cpu_tb
+VERILOG CPU
+VERILOG icpu
+VERILOG i_datapath
+VERILOG u_stall
+-----
+second field= DebussyLib
+third field= stall
+type= DS_SCOPE element= 1 field= 1
+VERILOG cpu_tb
+VERILOG CPU
+VERILOG icpu
+VERILOG i_datapath
+VERILOG u_be_store
+-----
+second field= DebussyLib
+third field= be_logic
+type= DS_SCOPE element= 1 field= 1
+VERILOG cpu_tb
+VERILOG CPU
+VERILOG icpu
+VERILOG i_datapath
+VERILOG u_be_load
+-----
+second field= DebussyLib
+third field= be_logic
+type= DS_SCOPE element= 1 field= 1
+VERILOG cpu_tb
+VERILOG CPU
+VERILOG icpu
+VERILOG i_datapath
+VERILOG u_ALU
+-----
+second field= DebussyLib
+third field= alu
+type= DS_SCOPE element= 1 field= 1
+VERILOG cpu_tb
+VERILOG CPU
+VERILOG icpu
+VERILOG i_datapath
+VERILOG rf
+-----
+second field= DebussyLib
+third field= reg_file_async
+type= DS_SCOPE element= 1 field= 1
+VERILOG cpu_tb
+VERILOG CPU
+VERILOG icpu
+VERILOG i_datapath
+VERILOG u_result_mux3
+-----
+second field= DebussyLib
+third field= mux3
+type= DS_SCOPE element= 1 field= 1
+VERILOG cpu_tb
+VERILOG CPU
+VERILOG icpu
+VERILOG i_datapath
+VERILOG u_alu_mux2
+-----
+second field= DebussyLib
+third field= mux2
+type= DS_SCOPE element= 1 field= 1
+VERILOG cpu_tb
+VERILOG CPU
+VERILOG icpu
+VERILOG i_datapath
+VERILOG u_alu_mux2
+-----
+second field= DebussyLib
+third field= mux2
+type= DS_SCOPE element= 1 field= 1
+VERILOG cpu_tb
+VERILOG CPU
+VERILOG icpu
+VERILOG i_datapath
+VERILOG u_alu_mux2
+-----
+second field= DebussyLib
+third field= mux2
+type= DS_SCOPE element= 1 field= 1
+VERILOG cpu_tb
+VERILOG CPU
+VERILOG icpu
+VERILOG i_datapath
+VERILOG u_alu_mux2
+-----
+second field= DebussyLib
+third field= mux2
+type= DS_SCOPE element= 1 field= 1
+VERILOG cpu_tb
+VERILOG CPU
+VERILOG icpu
+VERILOG i_datapath
+VERILOG hz_alu_mux2
+-----
+second field= DebussyLib
+third field= mux3
+type= DS_SCOPE element= 1 field= 1
+VERILOG cpu_tb
+VERILOG CPU
+VERILOG icpu
+VERILOG i_datapath
+VERILOG ALUResultM_W
+-----
+second field= DebussyLib
+third field= M_W_DFF
+type= DS_SCOPE element= 1 field= 1
+VERILOG cpu_tb
+VERILOG CPU
+VERILOG icpu
+VERILOG u_branch
+-----
+second field= DebussyLib
+third field= Branch_Logic
+type= DS_SCOPE element= 1 field= 1
+VERILOG cpu_tb
+VERILOG CPU
+VERILOG icpu
+VERILOG BranchD_E
+-----
+second field= DebussyLib
+third field= D_E_DFF
+type= DS_SCOPE element= 1 field= 1
+VERILOG cpu_tb
+VERILOG CPU
+VERILOG icpu
+VERILOG JumpD_E
+-----
+second field= DebussyLib
+third field= D_E_DFF
+type= DS_SCOPE element= 1 field= 1
+VERILOG cpu_tb
+VERILOG CPU
+VERILOG icpu
+VERILOG u_controller
+VERILOG mdec
+-----
+second field= DebussyLib
+third field= maindec
+type= DS_SCOPE element= 1 field= 1
+VERILOG cpu_tb
+VERILOG CPU
+VERILOG icpu
+VERILOG i_datapath
+VERILOG rf
+-----
+second field= DebussyLib
+third field= reg_file_async
